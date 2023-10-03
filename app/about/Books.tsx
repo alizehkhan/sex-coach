@@ -1,4 +1,5 @@
 import Image from 'next/image'
+
 import { BOOKS } from './content'
 
 const Books = () => {

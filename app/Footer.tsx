@@ -1,4 +1,5 @@
 import Link from 'next/link'
+
 import { LINKS } from './Header'
 
 const Footer = () => {
@@ -53,7 +54,7 @@ const Footer = () => {
         <div className="text-xs text-stone-700 flex gap-2 border-t-stone-300 border-solid border-[1px] pt-6">
           <p>All rights reserved © Haneen Khan 2023</p>
           <div>
-            <Link className="underline" href={''}>
+            <Link className="underline" href="/privacy">
               Privacy
             </Link>{' '}
             |{' '}
