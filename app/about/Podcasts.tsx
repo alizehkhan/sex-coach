@@ -13,16 +13,16 @@ const Podcasts = () => {
         {PODCASTS.map((podcast, i) => (
           <Link
             key={i}
-            className="hover:bg-stone-100 transition-all flex gap-6 justify-between px-10 items-center border-b-[1px] py-4 border-solid border-stone-300"
+            className="hover:bg-stone-100 transition-all flex gap-6 justify-between px-10 items-center border-b-[1px] py-5 border-solid border-stone-300"
             href={podcast.url}
             target="_blank"
           >
             <div className="flex items-center">
               <Image
                 src={podcast.image}
-                width={56}
-                height={56}
-                className="object-cover rounded-md mr-6"
+                width={48}
+                height={48}
+                className="object-cover rounded-md mr-6 h-12 w-12"
                 alt=""
               />
               <div>

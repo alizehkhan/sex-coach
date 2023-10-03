@@ -95,7 +95,7 @@ const SCHOOLS = [
 interface Testimonial {
   quote: string
   author: string
-  country: 'United Kingdom 🇬🇧' | 'United States 🇺🇸'
+  country: 'United Kingdom 🇬🇧' | 'United States 🇺🇸' | 'Mexico 🇲🇽'
   image: string
 }
 
@@ -113,6 +113,20 @@ const TESTIMONIALS: Testimonial[] = [
     author: 'Ali O',
     country: 'United States 🇺🇸',
     image: '/testimonials/testimonial-ali.png',
+  },
+  {
+    quote:
+      'Because of all the discomfort I felt around sexuality  - one of the things I really valued was Haneen’s lighthearted, silly and playful approach. It woke me up to realise that sex is supposed to be fun! Not all “heavy briefcases” and serious suits! I felt myself being uplifted by all of the joy  - and all that heaviness slowly dissolve! ',
+    author: 'Michael',
+    country: 'United Kingdom 🇬🇧',
+    image: '/testimonials/testimonial-michael.png',
+  },
+  {
+    quote:
+      'You can tell how passionate Haneen is about her work  by how she facilitates live classes, makes space for difficult emotions, and openly shares her own inner challenges with the group…. It reminds me, we are all human, we are all learning!',
+    author: 'Inga',
+    country: 'Mexico 🇲🇽',
+    image: '/testimonials/testimonial-inga.png',
   },
 ]
 
