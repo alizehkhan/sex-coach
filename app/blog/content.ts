@@ -25,6 +25,7 @@ export const BLOGS = [
     description:
       'One of my stories is:  “The world can’t handle me”. And like all stories we internalise, I am subconsciously seeking to confirm this truth everywhere. Ew.',
     url: '/sabotage-relationship',
+    image: '/blog/sabotage-relationship.png',
   },
   {
     title: 'How to Revive Your Sex Life',
