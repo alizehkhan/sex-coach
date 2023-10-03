@@ -1,16 +1,6 @@
 import Link from 'next/link'
 
-interface Link {
-  label: string
-  url: string
-}
-
-const LINKS: Link[] = [
-  {
-    label: 'About',
-    url: '/about',
-  },
-]
+const LINKS = ['About', 'Workshops', 'Coaching', 'Blog']
 
 const Header = () => {
   return (
@@ -22,10 +12,10 @@ const Header = () => {
         Haneen Khan
       </Link>
       <nav>
-        <ul>
+        <ul className="flex gap-5 text-stone-600">
           {LINKS.map((link, i) => (
             <li key={i}>
-              <Link href={link.url}>{link.label}</Link>
+              <Link href={`/${link.toLowerCase()}`}>{link}</Link>
             </li>
           ))}
         </ul>

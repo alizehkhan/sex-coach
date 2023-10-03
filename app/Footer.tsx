@@ -4,9 +4,32 @@ const Footer = () => {
   return (
     <footer className="py-12 mt-24 bg-stone-200">
       <div className="max-w-[1200px] mx-auto px-6">
-        <p className="text-4xl text-stone-700 font-serif font-semibold mb-8">
+        <p className="text-4xl text-stone-700 font-serif font-semibold">
           Haneen Khan
         </p>
+        <div className="text-stone-500 flex gap-2 mb-8 mt-2">
+          <Link
+            className="hover:text-stone-700"
+            href="https://www.facebook.com/groups/sexhomeworksociety"
+            target="_blank"
+          >
+            Facebook
+          </Link>
+          <Link
+            className="hover:text-stone-700"
+            href="https://instagram.com/sexyandsilly"
+            target="_blank"
+          >
+            Instagram
+          </Link>
+          <Link
+            className="hover:text-stone-700"
+            href="https://www.youtube.com/channel/UCkItIGs0gqySSuWa4LDV9MA"
+            target="_blank"
+          >
+            Youtube
+          </Link>
+        </div>
         <div className="text-xs text-stone-700 flex gap-2">
           <p>All rights reserved © Haneen Khan 2023</p>
           <div>

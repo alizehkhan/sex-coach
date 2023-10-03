@@ -102,13 +102,6 @@ interface Testimonial {
 const TESTIMONIALS: Testimonial[] = [
   {
     quote:
-      "Previously I didn't have the language or confidence to talk about sex in the way I wanted to... With Haneen’s work, I now feel so empowered to speak to what is happening for me and how to practise doing this with care with a partner",
-    author: 'Lisa',
-    country: 'United Kingdom 🇬🇧',
-    image: '/testimonials/testimonial-lisa.png',
-  },
-  {
-    quote:
       "Haneen helped me to realise how important my desires are. Instead of pressure, scripts and performance, Haneen helped me to embody playfulness and presence. I've learned that my sexual journey is mine to write, and it can be as fun, geeky, silly and lovely as I want it to be",
     author: 'Ali O',
     country: 'United States 🇺🇸',
@@ -127,6 +120,20 @@ const TESTIMONIALS: Testimonial[] = [
     author: 'Inga',
     country: 'Mexico 🇲🇽',
     image: '/testimonials/testimonial-inga.png',
+  },
+  {
+    quote:
+      'Haneen’s delivery of her courses are simply gold - she never fails to make spaces a super fun (and supported) ride to be on!',
+    author: 'Thea',
+    country: 'United Kingdom 🇬🇧',
+    image: '/testimonials/testimonial-thea.png',
+  },
+  {
+    quote:
+      'I particularly liked the care Haneen took to acknowledge when people may not be comfortable in workshops and offered opportunities for people to advocate for their needs while also making space in the course for cheeky and playful exploration. ',
+    author: 'Lisa',
+    country: 'United Kingdom 🇬🇧',
+    image: '/testimonials/testimonial-lisa.png',
   },
 ]
 
