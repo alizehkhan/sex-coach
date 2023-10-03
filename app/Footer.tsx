@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="pt-12 pb-8 mt-24 bg-stone-200">
       <div className="max-w-[1200px] mx-auto px-6">
-        <p className="text-4xl text-stone-700 font-serif font-semibold">
+        <p className="text-4xl tracking-tight text-stone-700 font-serif font-semibold">
           Haneen Khan
         </p>
         <p className="text-stone-500 font-serif text-2xl mt-1">
