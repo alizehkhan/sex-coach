@@ -4,7 +4,7 @@ const Schools = () => {
   return (
     <div className="flex gap-8 justify-between mt-40">
       <h2 className="font-serif font-semibold text-4xl text-stone-700 mb-8">
-        🎒 Schools I love
+        Schools I love
       </h2>
       <div>
         {SCHOOLS.map((school, i) => (

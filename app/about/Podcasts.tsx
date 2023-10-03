@@ -7,7 +7,7 @@ const Podcasts = () => {
   return (
     <>
       <h2 className="font-serif font-semibold text-4xl text-stone-700 mt-40 mb-8">
-        🎙️ Podcasts I&apos;m in
+        Podcasts I&apos;m in
       </h2>
       <div className="border-t-[1px] border-solid border-stone-300">
         {PODCASTS.map((podcast, i) => (

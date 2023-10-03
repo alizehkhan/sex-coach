@@ -6,7 +6,7 @@ const Testimonials = () => {
   return (
     <>
       <h2 className="font-serif font-semibold text-4xl text-stone-700 mt-40 mb-8">
-        Testimonials on my facilitation
+        Testimonials
       </h2>
       <div className="grid gap-4 grid-cols-[repeat(auto-fit,minmax(340px,1fr))]">
         {TESTIMONIALS.map((testimonial, i) => (

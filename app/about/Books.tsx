@@ -5,7 +5,7 @@ const Books = () => {
   return (
     <>
       <h2 className="font-serif font-semibold text-4xl mt-40 text-stone-700 mb-8">
-        📚 Books I recommend
+        Books I recommend
       </h2>
       <div className="flex-1 flex flex-wrap gap-8">
         {BOOKS.map((book, i) => (

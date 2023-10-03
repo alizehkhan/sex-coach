@@ -92,10 +92,10 @@ const SCHOOLS = [
   'Improv Theatre',
 ]
 
-interface Testimonial {
+export interface Testimonial {
   quote: string
   author: string
-  country: 'United Kingdom 🇬🇧' | 'United States 🇺🇸' | 'Mexico 🇲🇽'
+  country: 'United Kingdom 🇬🇧' | 'United States 🇺🇸' | 'Mexico 🇲🇽' | 'Germany 🇩🇪'
   image: string
 }
 

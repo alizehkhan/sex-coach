@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Open_Sans } from 'next/font/google'
+
 import Footer from './Footer'
 import Header from './Header'
 
@@ -21,7 +22,7 @@ export default function RootLayout({
       <body className={`bg-stone-50 ${openSans.className}`}>
         <div className="flex flex-col min-h-screen">
           <Header />
-          <main className="max-w-[1200px] px-6 mx-auto flex-1">{children}</main>
+          <main className="flex-1">{children}</main>
           <Footer />
         </div>
       </body>
