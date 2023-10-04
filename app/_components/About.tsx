@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const About = () => {
   return (
-    <div className="mt-24 gap-12 bg-stone-100 py-12 px-16 flex justify-between">
+    <div className="mt-24 gap-12 bg-stone-100 py-12 px-16 flex rounded-lg justify-between">
       <div className="flex-1">
         <h2 className="font-serif font-semibold text-6xl text-stone-700 tracking-tight">
           Hi deeeears, I&apos;m Haneen.

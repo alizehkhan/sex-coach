@@ -5,13 +5,13 @@ const CouplesCoaching = () => {
   return (
     <div className="py-12 px-16 bg-stone-100 rounded-lg mt-24 gap-12 flex">
       <div className="flex-1">
-        <h2 className="text-5xl text-stone-700 leading-tight font-serif tracking-tight font-semibold">
+        <h2 className="text-6xl text-stone-700 leading-tight font-serif tracking-tight font-semibold">
           Couples Intimacy Coaching
         </h2>
         <Link
           href="https://calendly.com/intimacycoaching/chemistrycall"
           target="_blank"
-          className="bg-rose-800 mt-8 w-fit text-white px-3 py-2 rounded-md block"
+          className="bg-rose-800 mt-6 w-fit text-white px-3 py-2 rounded-md block"
         >
           Book free chemistry call
         </Link>

@@ -1,6 +1,13 @@
 import Link from 'next/link'
 
-export const LINKS = ['About', 'Coaching', 'Workshops', 'Blog', 'Contact']
+export const LINKS = [
+  'Home',
+  'About',
+  'Coaching',
+  'Workshops',
+  'Blog',
+  'Contact',
+]
 
 const Header = () => {
   return (
@@ -12,7 +19,9 @@ const Header = () => {
         <ul className="flex gap-5 text-stone-600">
           {LINKS.map((link, i) => (
             <li key={i}>
-              <Link href={`/${link.toLowerCase()}`}>{link}</Link>
+              <Link href={`/${link === 'Home' ? '' : link.toLowerCase()}`}>
+                {link}
+              </Link>
             </li>
           ))}
         </ul>
