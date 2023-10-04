@@ -33,14 +33,14 @@ const Footer = () => {
             />
             <button
               type="submit"
-              className="bg-rose-800 text-white px-3 py-2 rounded-md block mt-4"
+              className="bg-stone-700 hover:bg-stone-800 text-white px-3 py-2 rounded-md block mt-4"
             >
               Subscribe
             </button>
           </form>
           <div>
             <div className="flex gap-12">
-              <div className="text-stone-500 flex flex-col w-fit gap-3 mb-8 mt-2">
+              <div className="text-stone-600 flex flex-col w-fit gap-3 mb-8 mt-2">
                 <Link
                   className="hover:text-stone-700"
                   href="https://www.facebook.com/groups/sexhomeworksociety"
@@ -64,7 +64,7 @@ const Footer = () => {
                 </Link>
               </div>
               <nav>
-                <ul className="text-stone-500 flex flex-col w-fit gap-3 mb-8 mt-2">
+                <ul className="text-stone-600 flex flex-col w-fit gap-3 mb-8 mt-2">
                   {LINKS.map((link, i) => (
                     <li key={i}>
                       <Link
@@ -80,7 +80,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="text-xs text-stone-600 flex border-t-stone-300 border-solid border-[1px] pt-6 mt-8">
+        <div className="text-xs text-stone-600 flex pt-6 mt-8">
           <p>
             All rights reserved © Haneen Khan 2023 |{' '}
             <address className="inline">hello@haneenkhan.com</address> |
