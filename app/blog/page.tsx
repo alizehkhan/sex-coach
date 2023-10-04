@@ -6,7 +6,7 @@ import { BLOGS } from './content'
 const Blog = () => {
   return (
     <div className="max-w-[1200px] px-6 mx-auto">
-      <h1 className="font-serif text-5xl font-semibold my-8 text-stone-700 tracking-tight md:text-7xl">
+      <h1 className="font-serif text-5xl my-8 text-stone-700 tracking-tight md:text-7xl">
         Blog
       </h1>
       <ul className="border-t-[1px] border-solid border-stone-300 max-w-[700px]">

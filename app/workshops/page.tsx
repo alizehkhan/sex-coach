@@ -6,9 +6,15 @@ import Testimonial from './Testimonial'
 const Workshops = () => {
   return (
     <>
-      <div className="h-[calc(100vh-72px)] bg-[url('/haneen-3.png')] bg-cover bg-center bg-no-repeat"></div>
+      <div className="h-[calc(100vh-80px)] bg-[url('/haneen-3.png')] bg-cover bg-center bg-no-repeat flex items-end">
+        <div className="max-w-[1200px] px-6 mx-auto w-full">
+          <h1 className="font-serif md:text-[100px] text-5xl text-white drop-shadow-lg pb-32 border-r-2 border-solid border-white">
+            Workshops
+          </h1>
+        </div>
+      </div>
       <div className="max-w-[1200px] px-6 mx-auto">
-        <div className="flex md:flex-row flex-col gap-12 mt-24">
+        <div className="flex md:flex-row flex-col gap-12 mt-20">
           <div className="bg-stone-100 py-6 px-8 rounded-md max-w-lg h-fit">
             <h2 className="font-serif text-4xl font-semibold">
               Workshops coming soon
