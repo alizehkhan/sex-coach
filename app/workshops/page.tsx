@@ -1,6 +1,7 @@
 import Link from 'next/link'
 
 import { COMING_SOON_WORKSHOPS } from './content'
+import Testimonial from './Testimonial'
 
 const Workshops = () => {
   return (
@@ -37,6 +38,7 @@ const Workshops = () => {
             ))}
           </div>
         </div>
+        <Testimonial />
       </div>
     </>
   )
