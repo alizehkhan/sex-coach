@@ -29,7 +29,7 @@ const Footer = () => {
               type="email"
               required
               autoComplete="off"
-              className="py-6 px-7 text-stone-600 focus:outline-2 focus:outline-stone-400 focus:outline text-xl rounded-md bg-stone-300 w-full"
+              className="py-6 px-7 text-stone-600 focus:outline-2 focus:outline-stone-400 focus:outline text-xl rounded-md bg-stone-100 w-full"
             />
             <button
               type="submit"
