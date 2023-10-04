@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const LINKS = ['About', 'Workshops', 'Coaching', 'Blog', 'Contact']
+export const LINKS = ['About', 'Coaching', 'Workshops', 'Blog', 'Contact']
 
 const Header = () => {
   return (

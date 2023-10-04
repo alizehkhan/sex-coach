@@ -14,7 +14,7 @@ const Footer = () => {
         </p>
         <div className="flex justify-between mt-10">
           <form action="" className="max-w-[440px]">
-            <p className="text-stone-600 mb-6">
+            <p className="text-stone-600 text-lg mb-4">
               Subscribe to my juicy newsletter for awkward dissections of my sex
               & relationship life 💦
             </p>
@@ -80,21 +80,13 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="text-xs text-stone-600 flex pt-6 mt-8">
-          <p>
-            All rights reserved © Haneen Khan 2023 |{' '}
-            <address className="inline">hello@haneenkhan.com</address> |
-          </p>
-          <div>
-            <Link className="underline" href="/privacy">
-              Privacy
-            </Link>{' '}
-            |{' '}
-            <Link className="underline" href={''}>
-              Terms
-            </Link>{' '}
-            |{' '}
-          </div>
+        <div className="text-xs text-stone-600 flex gap-4 pt-6 mt-8">
+          <p>All rights reserved © Haneen Khan 2023</p> |
+          <address className="inline">hello@haneenkhan.com</address> |
+          <Link className="underline" href="/privacy">
+            Privacy
+          </Link>
+          |
           <p>
             Website by{' '}
             <Link
