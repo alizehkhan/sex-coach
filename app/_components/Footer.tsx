@@ -14,9 +14,9 @@ const Footer = () => {
         </p>
         <div className="flex justify-between mt-10">
           <form action="" className="max-w-[440px]">
-            <p className="text-stone-600 text-lg mb-6">
+            <p className="text-stone-600 mb-6">
               Subscribe to my juicy newsletter for awkward dissections of my sex
-              & relationship life!
+              & relationship life 💦
             </p>
             <label
               htmlFor="email"
@@ -26,7 +26,7 @@ const Footer = () => {
             </label>
             <input
               id="email"
-              type="text"
+              type="email"
               required
               autoComplete="off"
               className="py-6 px-7 text-stone-600 focus:outline-2 focus:outline-stone-400 focus:outline text-xl rounded-md bg-stone-300 w-full"

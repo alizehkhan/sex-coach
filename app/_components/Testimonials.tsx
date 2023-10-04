@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import { TESTIMONIALS } from './content'
+import { TESTIMONIALS } from '../content'
 
 const Testimonials = () => {
   return (
