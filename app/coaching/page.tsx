@@ -1,4 +1,5 @@
 import Roots from './Roots'
+import Testimonial from './Testimonial'
 
 const Coaching = () => {
   return (
@@ -12,6 +13,7 @@ const Coaching = () => {
       </div>
       <div className="max-w-[1200px] px-6 mx-auto">
         <Roots />
+        <Testimonial />
       </div>
     </>
   )
