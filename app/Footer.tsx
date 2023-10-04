@@ -12,47 +12,79 @@ const Footer = () => {
         <p className="text-stone-500 font-serif text-2xl mt-1">
           Sex & Intimacy Coach
         </p>
-        <div className="flex gap-12 justify-end">
-          <div className="text-stone-500 flex flex-col w-fit gap-3 mb-8 mt-2">
-            <Link
-              className="hover:text-stone-700"
-              href="https://www.facebook.com/groups/sexhomeworksociety"
-              target="_blank"
+        <div className="flex justify-between mt-10">
+          <form action="" className="max-w-[440px]">
+            <p className="text-stone-600 text-lg mb-6">
+              Subscribe to my juicy newsletter for awkward dissections of my sex
+              & relationship life!
+            </p>
+            <label
+              htmlFor="email"
+              className="block font-semibold mb-1 text-stone-600"
             >
-              Facebook
-            </Link>
-            <Link
-              className="hover:text-stone-700"
-              href="https://instagram.com/sexyandsilly"
-              target="_blank"
+              Email
+            </label>
+            <input
+              id="email"
+              type="text"
+              required
+              autoComplete="off"
+              className="py-6 px-7 text-stone-600 focus:outline-2 focus:outline-stone-400 focus:outline text-xl rounded-md bg-stone-300 w-full"
+            />
+            <button
+              type="submit"
+              className="bg-rose-800 text-white px-3 py-2 rounded-md block mt-4"
             >
-              Instagram
-            </Link>
-            <Link
-              className="hover:text-stone-700"
-              href="https://www.youtube.com/channel/UCkItIGs0gqySSuWa4LDV9MA"
-              target="_blank"
-            >
-              Youtube
-            </Link>
+              Subscribe
+            </button>
+          </form>
+          <div>
+            <div className="flex gap-12">
+              <div className="text-stone-500 flex flex-col w-fit gap-3 mb-8 mt-2">
+                <Link
+                  className="hover:text-stone-700"
+                  href="https://www.facebook.com/groups/sexhomeworksociety"
+                  target="_blank"
+                >
+                  Facebook
+                </Link>
+                <Link
+                  className="hover:text-stone-700"
+                  href="https://instagram.com/sexyandsilly"
+                  target="_blank"
+                >
+                  Instagram
+                </Link>
+                <Link
+                  className="hover:text-stone-700"
+                  href="https://www.youtube.com/channel/UCkItIGs0gqySSuWa4LDV9MA"
+                  target="_blank"
+                >
+                  Youtube
+                </Link>
+              </div>
+              <nav>
+                <ul className="text-stone-500 flex flex-col w-fit gap-3 mb-8 mt-2">
+                  {LINKS.map((link, i) => (
+                    <li key={i}>
+                      <Link
+                        className="hover:text-stone-700"
+                        href={`/${link.toLowerCase()}`}
+                      >
+                        {link}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            </div>
           </div>
-          <nav>
-            <ul className="text-stone-500 flex flex-col w-fit gap-3 mb-8 mt-2">
-              {LINKS.map((link, i) => (
-                <li key={i}>
-                  <Link
-                    className="hover:text-stone-700"
-                    href={`/${link.toLowerCase()}`}
-                  >
-                    {link}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
         </div>
-        <div className="text-xs text-stone-700 flex gap-2 border-t-stone-300 border-solid border-[1px] pt-6">
-          <p>All rights reserved © Haneen Khan 2023</p>
+        <div className="text-xs text-stone-600 flex border-t-stone-300 border-solid border-[1px] pt-6 mt-8">
+          <p>
+            All rights reserved © Haneen Khan 2023 |{' '}
+            <address className="inline">hello@haneenkhan.com</address> |
+          </p>
           <div>
             <Link className="underline" href="/privacy">
               Privacy
@@ -60,7 +92,8 @@ const Footer = () => {
             |{' '}
             <Link className="underline" href={''}>
               Terms
-            </Link>
+            </Link>{' '}
+            |{' '}
           </div>
           <p>
             Website by{' '}
