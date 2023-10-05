@@ -8,7 +8,7 @@ const Testimonials = () => {
       <h2 className="font-serif font-semibold text-4xl text-stone-700 mt-40 mb-8">
         Testimonials on my facilitation
       </h2>
-      <div className="grid gap-4 grid-cols-[repeat(auto-fit,minmax(340px,1fr))]">
+      <div className="grid gap-4 grid-rows-[masonry] grid-cols-[repeat(auto-fit,minmax(340px,1fr))]">
         {TESTIMONIALS.map((testimonial, i) => (
           <div key={i} className="bg-white shadow-sm rounded-md px-8 py-6">
             <blockquote>

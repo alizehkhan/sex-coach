@@ -16,7 +16,7 @@ const Workshops = () => {
       <div className="max-w-[1200px] px-6 mx-auto">
         <div className="flex md:flex-row flex-col gap-12 mt-20">
           <div className="bg-stone-100 py-6 px-8 rounded-md max-w-lg h-fit">
-            <h2 className="font-serif text-4xl font-semibold">
+            <h2 className="font-serif text-4xl text-stone-700 font-semibold">
               Workshops coming soon
             </h2>
             <p className="text-xl text-stone-500 mt-2">
