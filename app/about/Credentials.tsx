@@ -53,13 +53,19 @@ const Credentials = () => {
       </h2>
       <div className="grid gap-12 grid-cols-[repeat(auto-fit,minmax(400px,1fr))]">
         {CREDENTIALS.map((credential, i) => (
-          <div key={i} className="flex gap-6 items-center">
-            <Image src={credential.image} width={200} height={64} alt="" />
+          <div key={i} className="flex gap-6">
+            <Image
+              src={credential.image}
+              className="w-48 h-20 object-contain shrink-0"
+              width={200}
+              height={64}
+              alt=""
+            />
             <div>
               <h3 className="text-stone-700 font-semibold text-lg">
                 {credential.school}
               </h3>
-              <p className="text-stone-700">{credential.level}</p>
+              <p className="text-stone-700 mb-1">{credential.level}</p>
               <p className="text-stone-500">{credential.description}</p>
             </div>
           </div>
