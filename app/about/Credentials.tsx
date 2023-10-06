@@ -51,11 +51,11 @@ const Credentials = () => {
       <h2 className="font-serif text-4xl text-stone-700 font-semibold mb-8">
         My credentials
       </h2>
-      <div className="grid gap-4 grid-cols-[repeat(auto-fit,minmax(400px,1fr))]">
+      <ul className="grid gap-4 grid-cols-[repeat(auto-fit,minmax(400px,1fr))]">
         {CREDENTIALS.map((credential, i) => (
-          <div
+          <li
             key={i}
-            className="flex bg-white py-4 px-6 items-center rounded-lg shadow-sm gap-6"
+            className="flex sm:flex-row flex-col bg-white py-4 px-6 items-center rounded-lg shadow-sm gap-6"
           >
             <Image
               src={credential.image}
@@ -71,9 +71,9 @@ const Credentials = () => {
               <p className="text-stone-700 mb-1">{credential.level}</p>
               <p className="text-stone-500 text-sm">{credential.description}</p>
             </div>
-          </div>
+          </li>
         ))}
-      </div>
+      </ul>
     </div>
   )
 }

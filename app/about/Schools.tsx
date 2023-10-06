@@ -2,20 +2,20 @@ import { SCHOOLS } from './content'
 
 const Schools = () => {
   return (
-    <div className="flex gap-8 justify-between mt-40">
-      <h2 className="font-serif font-semibold text-4xl text-stone-700 mb-8">
+    <div className="flex md:flex-row flex-col md:gap-8 gap-6 justify-between mt-40">
+      <h2 className="font-serif font-semibold text-4xl text-stone-700">
         Schools I love
       </h2>
-      <div>
+      <ul>
         {SCHOOLS.map((school, i) => (
-          <p
-            className="mb-4 font-serif font-semibold text-5xl text-stone-400"
+          <li
+            className="md:mb-4 mb-2 font-serif font-semibold md:text-5xl text-3xl text-stone-400"
             key={i}
           >
             {school}
-          </p>
+          </li>
         ))}
-      </div>
+      </ul>
     </div>
   )
 }
