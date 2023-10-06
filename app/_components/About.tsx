@@ -3,12 +3,12 @@ import Link from 'next/link'
 
 const About = () => {
   return (
-    <div className="mt-24 gap-12 bg-stone-100 py-12 px-16 flex rounded-lg justify-between">
+    <div className="mt-24 md:gap-12 gap-4 bg-stone-100 py-12 px-16 flex md:flex-row flex-col rounded-lg justify-between">
       <div className="flex-1">
-        <h2 className="font-serif font-semibold text-6xl text-stone-700 tracking-tight">
+        <h2 className="font-serif font-semibold md:text-6xl text-4xl text-stone-700 tracking-tight">
           Hi deeeears, I&apos;m Haneen.
         </h2>
-        <p className="font-serif text-4xl text-stone-500 mt-4 tracking-tight leading-tight">
+        <p className="font-serif md:text-4xl text-2xl text-stone-500 mt-4 tracking-tight leading-tight">
           👋🏼 My story from Indian lawyer 👩🏻‍💼 to wild sex coach is a real
           head-turner at dinners. 🤭
         </p>

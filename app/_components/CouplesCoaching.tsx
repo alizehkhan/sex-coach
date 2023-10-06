@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const CouplesCoaching = () => {
   return (
-    <div className="py-12 px-16 bg-stone-100 rounded-lg mt-24 gap-12 flex">
+    <div className="py-12 px-16 bg-stone-100 rounded-lg mt-24 gap-12 flex md:flex-row flex-col">
       <div className="flex-1">
         <h2 className="text-6xl text-stone-700 leading-tight font-serif tracking-tight font-semibold">
           Couples Intimacy Coaching

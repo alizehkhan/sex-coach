@@ -4,6 +4,7 @@ import { Open_Sans } from 'next/font/google'
 
 import Footer from './_components/Footer'
 import Header from './_components/Header'
+import MobileHeader from './_components/MobileHeader'
 
 const openSans = Open_Sans({ subsets: ['latin'] })
 
@@ -21,7 +22,12 @@ export default function RootLayout({
     <html lang="en">
       <body className={`bg-stone-50 ${openSans.className}`}>
         <div className="flex flex-col min-h-screen">
-          <Header />
+          <div className="hidden md:block">
+            <Header />
+          </div>
+          <div className="md:hidden block">
+            <MobileHeader />
+          </div>
           <main className="flex-1">{children}</main>
           <Footer />
         </div>
