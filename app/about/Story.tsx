@@ -4,12 +4,12 @@ const Story = () => {
   return (
     <>
       <div className="ml-auto w-fit">
-        <p className="text-5xl text-stone-700 leading-tight font-semibold font-serif max-w-[600px] mt-24 tracking-tight">
+        <p className="md:text-5xl text-3xl md:leading-tight text-stone-700 leading-tight font-semibold font-serif max-w-[600px] mt-24 tracking-tight">
           Would you believe, I used to be a lawyer?! 😱🤭 There I was cracking
           inappropriate sex stories at the office. 👩🏻‍💼💼
         </p>
-        <div className="flex gap-12 mt-8">
-          <div className="max-w-[280px]">
+        <div className="flex md:flex-row flex-col md:gap-12 mt-8">
+          <div className="md:max-w-[280px] w-full">
             <p className="text-stone-600 mt-4">
               I was in a monogamous relationship, with a happy regimented life
               in London... Until I had a devastating breakup. 💔 After that - I
@@ -28,7 +28,7 @@ const Story = () => {
               self-expression.
             </p>
           </div>
-          <div className="max-w-[280px]">
+          <div className="md:max-w-[280px] w-full">
             <p className="text-stone-600 mt-4">
               I organised play parties, tried polyamory, indulged in so much
               casual sex... It was LIBERATING.
@@ -47,26 +47,28 @@ const Story = () => {
           </div>
         </div>
       </div>
-      <p className="font-serif text-5xl font-semibold max-w-3xl text-stone-700 mt-32 leading-tight tracking-tight">
-        🙏🏼 Sex helped me get in touch with my deepest desires, my no, my
-        pleasure, my ability to take up space, my ability to communicate my
-        needs.
-      </p>
-      <p className="font-serif text-4xl font-semibold max-w-3xl text-stone-500 mt-8 leading-tight tracking-tight">
-        It was a powerful catalyst. At the same time, I experienced a shift in
-        my social and work life. Because how I show up in the bedroom, is how I
-        show up in life. So I&apos;ve made it my life mission to empower people
-        to do the very same.
-      </p>
-      <Image
-        src="/haneen/haneen-5.png"
-        alt=""
-        height={800}
-        width={1000}
-        className="object-cover mt-12 max-w-3xl rounded-lg"
-      />
+      <div className="max-w-3xl mt-32">
+        <p className="font-serif md:text-5xl text-3xl md:leading-tight font-semibold text-stone-700 leading-tight tracking-tight">
+          🙏🏼 Sex helped me get in touch with my deepest desires, my no, my
+          pleasure, my ability to take up space, my ability to communicate my
+          needs.
+        </p>
+        <p className="font-serif md:text-4xl md:leading-tight text-2xl font-semibold text-stone-400 mt-8 leading-tight tracking-tight">
+          It was a powerful catalyst. At the same time, I experienced a shift in
+          my social and work life. Because how I show up in the bedroom, is how
+          I show up in life. So I&apos;ve made it my life mission to empower
+          people to do the very same.
+        </p>
+        <Image
+          src="/haneen/haneen-5.png"
+          alt=""
+          height={512}
+          width={768}
+          className="object-cover mt-12 w-full rounded-lg"
+        />
+      </div>
       <div className="ml-auto w-fit my-32 max-w-xl">
-        <p className="font-serif text-5xl font-semibold text-stone-700 leading-tight tracking-tight">
+        <p className="font-serif md:text-5xl text-3xl md:leading-tight font-semibold text-stone-700 leading-tight tracking-tight">
           My content is about sex, but{' '}
           <span className="text-stone-500 italic">(shhhh!)</span> it&apos;s not
           about sex. 💁‍♀️ This is about how to be shamelessly you.{' '}
