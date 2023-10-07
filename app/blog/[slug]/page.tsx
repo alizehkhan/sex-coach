@@ -6,6 +6,7 @@ import { MDXRemote } from 'next-mdx-remote/rsc'
 import getPostMetadata from '../getPostMetaData'
 
 import Container from '@/app/_components/Container'
+import { useMDXComponents } from '@/mdx-components'
 
 const getPostContent = (slug: string) => {
   const folder = 'app/_posts/'
@@ -29,7 +30,7 @@ const PostPage = ({ params }: { params: { slug: string } }) => {
         {post.data.title}
       </h1>
       <article>
-        <MDXRemote source={post.content} />
+        <MDXRemote source={post.content} components={useMDXComponents()} />
       </article>
     </Container>
   )
