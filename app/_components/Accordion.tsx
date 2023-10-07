@@ -1,3 +1,4 @@
+import { IconChevronDown } from '@tabler/icons-react'
 import { ReactNode } from 'react'
 
 const Accordion = ({
@@ -18,10 +19,13 @@ const Accordion = ({
       <h3 className="font-semibold text-stone-700">
         <button
           aria-expanded={isOpen}
-          className="px-8 py-6 text-left w-full"
+          className="px-8 py-6 text-left w-full flex justify-between gap-4"
           onClick={() => toggle(i)}
         >
           {header}
+          <IconChevronDown
+            className={`transition-all ${isOpen && 'rotate-180'}`}
+          />
         </button>
       </h3>
       <div
