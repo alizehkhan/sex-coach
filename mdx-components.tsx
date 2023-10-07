@@ -1,7 +1,7 @@
 import type { MDXComponents } from 'mdx/types'
 import { ReactNode } from 'react'
 
-export function useMDXComponents(components: MDXComponents): MDXComponents {
+export function useMDXComponents(components?: MDXComponents): MDXComponents {
   return {
     h1: ({ children }: { children?: ReactNode }) => (
       <h1 className="my-10 font-serif text-5xl font-semibold text-stone-700 tracking-tight md:text-7xl">
