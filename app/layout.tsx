@@ -1,4 +1,5 @@
 import './globals.css'
+import { Analytics } from '@vercel/analytics/react'
 import type { Metadata } from 'next'
 import { Open_Sans } from 'next/font/google'
 import { ReactNode } from 'react'
@@ -29,6 +30,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <main className="flex-1">{children}</main>
           <Footer />
         </div>
+        <Analytics />
       </body>
     </html>
   )
