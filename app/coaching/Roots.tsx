@@ -18,17 +18,17 @@ const ROOTS = [
 
 const Roots = () => {
   return (
-    <div className="mt-16">
-      <h2 className="text-[120px] max-w-2xl leading-none mb-8 tracking-tight font-serif text-stone-300">
+    <div className="mt-24">
+      <h2 className="text-4xl font-semibold leading-none mb-8 tracking-tight font-serif text-stone-700">
         My coaching is rooted in
       </h2>
       <ul className="flex gap-12">
         {ROOTS.map((root, i) => (
-          <li key={i}>
-            <h3 className="text-stone-700 mb-2 text-xl font-semibold">
+          <li key={i} className="bg-white py-6 px-8 shadow-sm rounded-md">
+            <h3 className="text-stone-700 mb-2 text-lg font-semibold">
               {root.title}
             </h3>
-            <p className="text-stone-500 text-lg">{root.description}</p>
+            <p className="text-stone-500">{root.description}</p>
           </li>
         ))}
       </ul>

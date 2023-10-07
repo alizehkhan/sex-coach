@@ -70,7 +70,7 @@ const Story = () => {
       <div className="ml-auto w-fit my-32 max-w-xl">
         <p className="font-serif md:text-5xl text-3xl md:leading-tight font-semibold text-stone-700 leading-tight tracking-tight">
           My content is about sex, but{' '}
-          <span className="text-stone-500 italic">(shhhh!)</span> it&apos;s not
+          <span className="text-stone-400 italic">(shhhh!)</span> it&apos;s not
           about sex. 💁‍♀️ This is about how to be shamelessly you.{' '}
         </p>
         <div className="mt-8 flex gap-16">
