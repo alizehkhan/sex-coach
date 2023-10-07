@@ -8,8 +8,8 @@ const Blog = () => {
 
   return (
     <div className="max-w-[1200px] px-6 mx-auto">
-      <div className="ml-auto flex justify-between mt-16">
-        <h1 className="font-serif text-5xl text-stone-700 tracking-tight md:text-7xl">
+      <div className="ml-auto flex md:flex-row flex-col justify-between mt-16">
+        <h1 className="font-serif text-5xl text-stone-700 tracking-tight mb-8 md:text-7xl">
           Blog
         </h1>
         <ul className="border-t-[1px] border-solid border-stone-300 max-w-[700px]">

@@ -69,7 +69,7 @@ const Footer = () => {
                     <li key={i}>
                       <Link
                         className="hover:text-stone-700"
-                        href={`/${link.toLowerCase()}`}
+                        href={`/${link === 'Home' ? '' : link.toLowerCase()}`}
                       >
                         {link}
                       </Link>
@@ -80,13 +80,12 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="text-xs text-stone-600 flex gap-4 pt-6 mt-8">
-          <p>All rights reserved © Haneen Khan 2023</p> |
-          <address className="inline">hello@haneenkhan.com</address> |
+        <div className="text-xs text-stone-600 flex flex-wrap gap-4 pt-6 mt-8">
+          <p>All rights reserved © Haneen Khan 2023</p>
+          <address className="inline">hello@haneenkhan.com</address>
           <Link className="underline" href="/privacy">
             Privacy
           </Link>
-          |
           <p>
             Website by{' '}
             <Link

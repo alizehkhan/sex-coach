@@ -28,7 +28,7 @@ const MobileNav = ({
         {LINKS.map((link, i) => (
           <li key={i}>
             <Link
-              href={link.toLowerCase()}
+              href={`/${link === 'Home' ? '' : link.toLowerCase()}`}
               onClick={() => setIsMobileNavOpen(false)}
             >
               {link}

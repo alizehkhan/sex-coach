@@ -73,7 +73,7 @@ const Story = () => {
           <span className="text-stone-400 italic">(shhhh!)</span> it&apos;s not
           about sex. 💁‍♀️ This is about how to be shamelessly you.{' '}
         </p>
-        <div className="mt-8 flex gap-16">
+        <div className="mt-8 flex md:flex-row flex-col md:gap-16 gap-4">
           <p className="text-stone-600 flex-1">
             So I&apos;m gonna role model that sh*t. 😂 I am shameless. I
             over-share everything. I am “TMI”. Ok, so maybe sharing scandalous
