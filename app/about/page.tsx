@@ -1,9 +1,9 @@
-import Books from './Books'
-import Credentials from './Credentials'
-import Podcasts from './Podcasts'
-import Schools from './Schools'
-import Story from './Story'
-import Testimonials from './Testimonials'
+import Books from './_components/Books'
+import Credentials from './_components/Credentials'
+import Podcasts from './_components/Podcasts'
+import Schools from './_components/Schools'
+import Story from './_components/Story'
+import Testimonials from './_components/Testimonials'
 
 const About = () => {
   return (

@@ -2,7 +2,7 @@ import { IconBrandSpotify } from '@tabler/icons-react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-import { PODCASTS } from './content'
+import { PODCASTS } from '../content'
 
 const Podcasts = () => {
   return (

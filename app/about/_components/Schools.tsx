@@ -1,4 +1,4 @@
-import { SCHOOLS } from './content'
+import { SCHOOLS } from '../content'
 
 const Schools = () => {
   return (

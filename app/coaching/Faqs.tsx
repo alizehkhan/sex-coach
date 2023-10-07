@@ -18,7 +18,7 @@ const Faqs = () => {
       <h2 className="font-serif text-stone-700 text-4xl font-semibold mt-24">
         FAQs
       </h2>
-      <div className="flex flex-col gap-4 mt-6">
+      <div className="flex flex-col gap-4 mt-6 max-w-[75ch]">
         {TOPICS.map(({ header, content }, i) => (
           <Accordion
             key={i}

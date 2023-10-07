@@ -15,7 +15,7 @@ const Accordion = ({
   i: number
 }) => {
   return (
-    <div className="bg-stone-100 shadow-sm rounded-md max-w-[80ch]">
+    <div className="bg-stone-100 shadow-sm rounded-md">
       <h3 className="font-semibold text-stone-700">
         <button
           aria-expanded={isOpen}
