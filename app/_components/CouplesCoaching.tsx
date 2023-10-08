@@ -39,17 +39,3 @@ const CouplesCoaching = () => {
 }
 
 export default CouplesCoaching
-
-// <ul className="text-stone-700 text-lg mt-8">
-//   <li className="mt-2 pl-8">Maybe you struggle getting turned on</li>
-//   <li className="mt-2 pl-8">
-//     Maybe you repeat the same sex routine over and over again.
-//   </li>
-//   <li className="mt-2 pl-8">
-//     Maybe you feel disconnected from each other
-//   </li>
-//   <li className="mt-2 pl-8">
-//     Maybe one of always initiates sex, and the other feels pressure to say
-//     yes!
-//   </li>
-// </ul>

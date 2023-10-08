@@ -5,6 +5,8 @@ import matter from 'gray-matter'
 import Link from 'next/link'
 import { MDXRemote } from 'next-mdx-remote/rsc'
 
+import getPostMetadata from '../getPostMetaData'
+
 import Container from '@/app/_components/Container'
 import { useMDXComponents } from '@/mdx-components'
 
@@ -12,6 +14,13 @@ const getPostContent = (slug: string) => {
   const file = `app/_posts/${slug}.mdx`
   const content = fs.readFileSync(file, 'utf8')
   return matter(content)
+}
+
+export const generateStaticParams = async () => {
+  const posts = getPostMetadata()
+  return posts.map((post) => ({
+    slug: post.slug,
+  }))
 }
 
 const PostPage = ({ params }: { params: { slug: string } }) => {
