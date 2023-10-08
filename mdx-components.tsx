@@ -14,7 +14,7 @@ export function useMDXComponents(components?: MDXComponents): MDXComponents {
       </h2>
     ),
     h3: ({ children }: { children?: ReactNode }) => (
-      <h3 className="mt-8 font-serif text-xl font-semibold text-stone-700">
+      <h3 className="mt-8 font-serif text-xl font-semibold text-stone-600">
         {children}
       </h3>
     ),

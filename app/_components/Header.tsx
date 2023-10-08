@@ -19,7 +19,10 @@ const Header = () => {
         <ul className="flex gap-5 text-stone-600">
           {LINKS.map((link, i) => (
             <li key={i}>
-              <Link href={`/${link === 'Home' ? '' : link.toLowerCase()}`}>
+              <Link
+                href={`/${link === 'Home' ? '' : link.toLowerCase()}`}
+                className="hover:underline underline-offset-4 decoration-2"
+              >
                 {link}
               </Link>
             </li>
