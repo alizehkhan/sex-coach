@@ -103,7 +103,7 @@ const TESTIMONIALS: Testimonial[] = [
   {
     quote:
       "Haneen helped me to realise how important my desires are. Instead of pressure, scripts and performance, Haneen helped me to embody playfulness and presence. I've learned that my sexual journey is mine to write, and it can be as fun, geeky, silly and lovely as I want it to be",
-    author: 'Ali O',
+    author: 'Ali',
     country: 'United States 🇺🇸',
     image: '/testimonials/testimonial-ali.png',
   },

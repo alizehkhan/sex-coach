@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Testimonial = () => {
   return (
     <>
-      <blockquote className="max-w-2xl mx-auto bg-white mt-24 w-fit rounded-md px-16 py-12 shadow-sm">
+      <blockquote className="max-w-2xl mx-auto bg-white mt-24 w-fit rounded-lg md:px-16 md:py-12 px-8 py-6 shadow-sm">
         <q className="font-serif text-stone-600 text-xl">
           Haneen is exactly the kind of sex and intimacy coach you would want -
           she is a wonderful listener, asks great curious questions and embodies

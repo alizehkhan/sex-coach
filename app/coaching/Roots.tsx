@@ -22,7 +22,7 @@ const Roots = () => {
       <h2 className="text-4xl font-semibold leading-none mb-8 tracking-tight font-serif text-stone-700">
         My coaching is rooted in
       </h2>
-      <ul className="flex gap-12">
+      <ul className="flex md:flex-row flex-col gap-12">
         {ROOTS.map((root, i) => (
           <li key={i} className="bg-white py-6 px-8 shadow-sm rounded-md">
             <h3 className="text-stone-700 mb-2 text-lg font-semibold">

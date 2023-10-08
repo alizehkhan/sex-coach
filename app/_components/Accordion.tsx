@@ -24,7 +24,7 @@ const Accordion = ({
         >
           {header}
           <IconChevronDown
-            className={`transition-all ${isOpen && 'rotate-180'}`}
+            className={`shrink-0 transition-all ${isOpen && 'rotate-180'}`}
           />
         </button>
       </h3>

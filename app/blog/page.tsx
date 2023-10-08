@@ -17,11 +17,11 @@ const Blog = () => {
             <li key={i} className="list-none">
               <Link
                 href={`/blog/${post.slug}`}
-                className="py-8 flex gap-6 border-stone-300 border-solid border-b-[1px]"
+                className="py-8 flex md:flex-row flex-col gap-6 border-stone-300 border-solid border-b-[1px]"
               >
                 <Image
                   src={`/blog/${post.slug}.png`}
-                  className="w-52 h-36 object-cover shrink-0 rounded-sm"
+                  className="md:w-52 w-full md:h-36 h-48 object-cover shrink-0 rounded-sm"
                   width={208}
                   height={144}
                   alt=""

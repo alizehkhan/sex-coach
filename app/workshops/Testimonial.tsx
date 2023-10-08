@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Testimonial = () => {
   return (
     <>
-      <blockquote className="max-w-2xl mx-auto bg-white mt-24 w-fit rounded-md px-16 py-12 shadow-sm">
+      <blockquote className="max-w-2xl mx-auto bg-white mt-24 w-fit rounded-md md:px-16 md:py-12 px-8 py-6 shadow-sm">
         <q className="font-serif text-stone-600 text-xl">
           Does it sound too much if I say your workshop was life-changing? It
           really was! I came away with a deeper understanding of my own
