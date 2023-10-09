@@ -3,13 +3,13 @@ import Image from 'next/image'
 const Story = () => {
   return (
     <>
-      <div className="ml-auto w-fit">
-        <p className="md:text-5xl text-3xl md:leading-tight text-stone-700 leading-tight font-semibold font-serif max-w-[600px] mt-24 tracking-tight">
+      <div className="ml-auto max-w-3xl w-fit">
+        <p className="md:text-5xl text-3xl md:leading-tight text-stone-700 leading-tight font-semibold font-serif mt-24 tracking-tight">
           Would you believe, I used to be a lawyer?! 😱🤭 There I was cracking
           inappropriate sex stories at the office. 👩🏻‍💼💼
         </p>
-        <div className="flex md:flex-row flex-col md:gap-12 mt-8">
-          <div className="md:max-w-[280px] w-full">
+        <div className="flex md:flex-row w-full flex-col md:gap-16 mt-8 text-lg">
+          <div className="flex-1">
             <p className="text-stone-600 mt-4">
               I was in a monogamous relationship, with a happy regimented life
               in London... Until I had a devastating breakup. 💔 After that - I
@@ -28,7 +28,7 @@ const Story = () => {
               self-expression.
             </p>
           </div>
-          <div className="md:max-w-[280px] w-full">
+          <div className="flex-1">
             <p className="text-stone-600 mt-4">
               I organised play parties, tried polyamory, indulged in so much
               casual sex... It was LIBERATING.
@@ -67,13 +67,13 @@ const Story = () => {
           className="object-cover mt-12 w-full rounded-lg"
         />
       </div>
-      <div className="ml-auto w-fit my-32 max-w-xl">
+      <div className="ml-auto w-fit my-32 max-w-3xl">
         <p className="font-serif md:text-5xl text-3xl md:leading-tight font-semibold text-stone-700 leading-tight tracking-tight">
           My content is about sex, but{' '}
           <span className="text-stone-400 italic">(shhhh!)</span> it&apos;s not
           about sex. 💁‍♀️ This is about how to be shamelessly you.{' '}
         </p>
-        <div className="mt-8 flex md:flex-row flex-col md:gap-16 gap-4">
+        <div className="mt-8 flex md:flex-row flex-col text-lg md:gap-16 gap-4">
           <p className="text-stone-600 flex-1">
             So I&apos;m gonna role model that sh*t. 😂 I am shameless. I
             over-share everything. I am “TMI”. Ok, so maybe sharing scandalous
