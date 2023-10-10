@@ -1,4 +1,5 @@
 import About from './_components/About'
+import Blog from './_components/Blog'
 import CouplesCoaching from './_components/CouplesCoaching'
 import Testimonials from './_components/Testimonials'
 
@@ -9,6 +10,7 @@ export default function Home() {
       <div className="max-w-[1200px] px-6 mx-auto pt-24">
         <CouplesCoaching />
         <About />
+        <Blog />
         <Testimonials />
       </div>
     </>

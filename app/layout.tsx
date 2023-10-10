@@ -11,7 +11,7 @@ import MobileHeader from './_components/MobileHeader'
 const openSans = Open_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Haneen Khan | Sex & Intimacy Coach',
+  title: 'Haneen Khan | Sex and Intimacy Coach',
   description:
     'Coaching and group programmes to help you reconnect to the free and shameless sexual being you are. For life.',
 }

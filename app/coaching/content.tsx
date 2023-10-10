@@ -1,4 +1,4 @@
-export const TOPICS = [
+export const QUESTIONS = [
   {
     header: 'What happens during a sex coaching session?',
     content: (

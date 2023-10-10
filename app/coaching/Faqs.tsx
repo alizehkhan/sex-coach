@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 import Accordion from '../_components/Accordion'
 
-import { TOPICS } from './content'
+import { QUESTIONS } from './content'
 
 const Faqs = () => {
   const [selected, setSelected] = useState<number | null>()
@@ -19,7 +19,7 @@ const Faqs = () => {
         FAQs
       </h2>
       <div className="flex flex-col gap-4 mt-6 max-w-[75ch]">
-        {TOPICS.map(({ header, content }, i) => (
+        {QUESTIONS.map(({ header, content }, i) => (
           <Accordion
             key={i}
             header={header}
