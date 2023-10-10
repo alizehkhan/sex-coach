@@ -34,3 +34,23 @@ h4,
 p {
   overflow-wrap: break-word;
 }
+
+/* q p {
+  font-family: 'Petrona', serif !important;
+  display: inline;
+} */
+
+a:focus-visible,
+button:focus-visible {
+  outline: 4px solid #9f1239;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+input:focus-visible,
+a:focus-visible,
+button:focus-visible {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
