@@ -9,7 +9,7 @@ const Blog = () => {
 
   return (
     <>
-      <ul className="flex md:flex-row flex-col justify-between mt-24 md:gap-16 gap-6 w-full">
+      <ul className="flex md:flex-row flex-col justify-between mt-40 md:gap-16 gap-6 w-full">
         {posts.slice(0, 3).map((post, i) => (
           <li key={i} className="list-none flex-1">
             <Link href={`/blog/${post.slug}`} className="flex flex-col gap-6">

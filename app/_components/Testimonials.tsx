@@ -5,7 +5,7 @@ import { TESTIMONIALS } from '../content'
 const Testimonials = () => {
   return (
     <>
-      <h2 className="font-serif font-semibold text-4xl text-stone-700 mt-24 mb-8">
+      <h2 className="font-serif font-semibold text-4xl text-stone-700 mt-40 mb-8">
         Testimonials
       </h2>
       <div className="grid gap-4 grid-cols-[repeat(auto-fit,minmax(340px,1fr))]">

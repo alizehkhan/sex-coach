@@ -4,7 +4,7 @@ import Link from 'next/link'
 const About = () => {
   return (
     <>
-      <div className="max-w-[700px] mt-24 text-lg text-stone-600 rounded-xl opacity-90">
+      <div className="max-w-[700px] mt-24 text-lg rounded-xl opacity-90">
         <h2 className="font-serif font-semibold md:text-6xl text-4xl text-stone-700 tracking-tight">
           Hi deeeears, I&apos;m Haneen.
         </h2>
@@ -12,7 +12,7 @@ const About = () => {
           👋🏼 My story from Indian lawyer 👩🏻‍💼 to wild sex coach is a real
           head-turner at dinners. 🤭
         </p>
-        <div className="flex gap-8">
+        <div className="flex gap-16 text-stone-600 mt-4">
           <div className="flex-1">
             <p className="mt-4">
               “Wait, WHAT? You were a lawyer?!”. YUP, what can I say. I weirdly
@@ -45,7 +45,7 @@ const About = () => {
         </div>
         <Link
           href="/about"
-          className="text-stone-600 w-fit mt-6 items-center flex gap-1 hover:gap-4 transition-all underline underline-offset-8 font-semibold"
+          className="text-stone-700 w-fit mt-6 items-center flex gap-1 hover:gap-4 transition-all underline underline-offset-8 font-semibold"
         >
           Learn more about me
           <IconChevronRight stroke={1.5} />
