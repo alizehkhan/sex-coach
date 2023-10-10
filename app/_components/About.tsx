@@ -13,7 +13,7 @@ const About = () => {
           head-turner at dinners. 🤭
         </p>
       </div>
-      <div className="flex-1 text-stone-600">
+      <div className="flex-1 text-lg text-stone-600">
         <p className="mt-4">
           “Wait, WHAT? You were a lawyer?!”. YUP, what can I say. I weirdly
           enjoyed running around barefoot (cos heels are the devil 👠⛔),
@@ -39,9 +39,9 @@ const About = () => {
         </p>
         <Link
           href="/about"
-          className="text-stone-600 mt-6 items-center flex gap-1 hover:underline hover:underline-offset-4"
+          className="text-stone-600 w-fit mt-6 items-center flex gap-1 hover:gap-4 transition-all underline underline-offset-8 font-semibold"
         >
-          Learn more
+          Learn more about me
           <IconChevronRight stroke={1.5} />
         </Link>
       </div>
