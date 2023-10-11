@@ -26,7 +26,7 @@ const Coaching121 = () => {
             </li>
           </ul>
           <Link
-            href="https://sexhomeworksociety.typeform.com/to/qwb4MdHg"
+            href="https://calendly.com/intimacycoaching/complimentary-coaching-call"
             target="_blank"
             className="bg-rose-800 hover:bg-rose-900 w-fit text-white px-3 py-2 rounded-md block mt-8"
           >
@@ -39,11 +39,11 @@ const Coaching121 = () => {
               £140
             </p>
             <p className="text-stone-700 text-lg font-semibold">
-              One-off session
+              One-off 1 hour session
             </p>
           </div>
           <Link
-            href="https://sexhomeworksociety.typeform.com/to/qwb4MdHg"
+            href="https://calendly.com/intimacycoaching/complimentary-coaching-call"
             target="_blank"
             className="bg-rose-800 hover:bg-rose-900 w-fit text-white px-3 py-2 rounded-md block mt-8"
           >
