@@ -1,3 +1,4 @@
+import Coaching121 from './Coaching121'
 import Faqs from './Faqs'
 import Roots from './Roots'
 import Testimonial from './Testimonial'
@@ -14,6 +15,7 @@ const Coaching = () => {
       </div>
       <div className="max-w-[1200px] px-6 mx-auto">
         <Roots />
+        <Coaching121 />
         <Faqs />
         <Testimonial />
       </div>

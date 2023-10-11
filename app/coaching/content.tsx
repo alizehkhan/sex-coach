@@ -161,4 +161,14 @@ export const QUESTIONS = [
       </p>
     ),
   },
+  {
+    header: 'Are we the right couple?',
+    content: (
+      <p>
+        You are a couple who desire bringing more intimacy 🥰 & juice 🧃 back
+        into your relationship! You are committed to working together in a
+        focussed container of 3-4 months (starting whenever you wish this year).
+      </p>
+    ),
+  },
 ]

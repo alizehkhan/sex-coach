@@ -25,7 +25,7 @@ const Workshops = () => {
             <Link
               href="https://sexhomeworksociety.typeform.com/to/qwb4MdHg"
               target="_blank"
-              className="bg-rose-800 w-fit text-white px-3 py-2 rounded-md block mt-4"
+              className="bg-rose-800 hover:bg-rose-900 w-fit text-white px-3 py-2 rounded-md block mt-4"
             >
               Notify me
             </Link>
