@@ -1,26 +1,27 @@
-import { IconCheck } from '@tabler/icons-react'
-import Link from 'next/link'
+import { IconCheck } from "@tabler/icons-react";
+import Link from "next/link";
 
 const Coaching121 = () => {
   return (
     <>
-      <h2 className="font-serif mb-8 text-stone-700 text-4xl font-semibold mt-24">
+      <h2 className="mb-8 mt-24 font-serif text-4xl font-semibold text-stone-700">
         1:1 Coaching
       </h2>
-      <div className="flex gap-4 md:flex-row flex-col">
-        <div className="py-8 px-10 w-fit rounded-lg bg-stone-100">
-          <p className="font-serif text-6xl font-semibold text-stone-700">
+      <div className="flex flex-col gap-4 md:flex-row">
+        <div className="w-fit rounded-lg bg-stone-100 px-10 py-8">
+          <p className="text-lg font-semibold text-stone-700">3 months</p>
+          <p className="mb-3 mt-2 font-serif text-6xl font-semibold text-stone-700">
             £840
           </p>
-          <p className="text-stone-700 text-lg font-semibold">
-            3 months (7 x 1 hour sessions)
-          </p>
-          <ul className="text-stone-600 mt-4">
+          <ul className="text-stone-600">
             <li className="flex gap-2">
+              <IconCheck />7 x 1 hour sessions
+            </li>
+            <li className="mt-2 flex gap-2">
               <IconCheck />
               Email support & check-ins
             </li>
-            <li className="flex gap-2 mt-2">
+            <li className="mt-2 flex gap-2">
               <IconCheck />
               Personalised homework in between
             </li>
@@ -28,31 +29,34 @@ const Coaching121 = () => {
           <Link
             href="https://calendly.com/intimacycoaching/complimentary-coaching-call"
             target="_blank"
-            className="bg-rose-800 hover:bg-rose-900 w-fit text-white px-3 py-2 rounded-md block mt-8"
+            className="mt-8 block w-fit rounded-md bg-rose-800 px-3 py-2 text-white hover:bg-rose-900"
           >
             Book a free discovery call
           </Link>
         </div>
-        <div className="py-8 px-10 w-fit flex flex-col justify-between rounded-lg bg-stone-100">
+        <div className="flex w-fit flex-col justify-between rounded-lg bg-stone-100 px-10 py-8">
           <div>
-            <p className="font-serif text-6xl font-semibold text-stone-700">
+            <p className="text-lg font-semibold text-stone-700">One-off</p>
+            <p className=" mb-3 mt-2 font-serif text-6xl font-semibold text-stone-700">
               £140
             </p>
-            <p className="text-stone-700 text-lg font-semibold">
-              One-off 1 hour session
-            </p>
+            <ul className="text-stone-600">
+              <li className="flex gap-2">
+                <IconCheck />1 hour session
+              </li>
+            </ul>
           </div>
           <Link
             href="https://calendly.com/intimacycoaching/complimentary-coaching-call"
             target="_blank"
-            className="bg-rose-800 hover:bg-rose-900 w-fit text-white px-3 py-2 rounded-md block mt-8"
+            className="mt-8 block w-fit rounded-md bg-rose-800 px-3 py-2 text-white hover:bg-rose-900"
           >
             Book a free discovery call
           </Link>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Coaching121
+export default Coaching121;

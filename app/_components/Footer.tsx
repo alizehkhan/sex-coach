@@ -1,26 +1,26 @@
-import Link from 'next/link'
+import Link from "next/link";
 
-import { LINKS } from './Header'
+import { LINKS } from "./Header";
 
 const Footer = () => {
   return (
-    <footer className="pt-12 pb-8 mt-24 bg-stone-200">
-      <div className="max-w-[1200px] mx-auto px-6">
-        <p className="text-4xl tracking-tight text-stone-700 font-serif font-semibold">
+    <footer className="mt-24 bg-stone-200 pb-8 pt-12">
+      <div className="mx-auto max-w-[1200px] px-6">
+        <p className="font-serif text-4xl font-semibold tracking-tight text-stone-700">
           Haneen Khan
         </p>
-        <p className="text-stone-500 font-serif text-2xl mt-1">
+        <p className="mt-1 font-serif text-2xl text-stone-500">
           Sex & Intimacy Coach
         </p>
-        <div className="flex justify-between mt-10">
-          <form action="" className="max-w-[440px]">
-            <p className="text-stone-600 text-lg mb-4">
+        <div className="mt-10 flex justify-between">
+          <form action="" className="max-w-[400px]">
+            <p className="mb-4 text-lg text-stone-600">
               Subscribe to my juicy newsletter for awkward dissections of my sex
               & relationship life 💦
             </p>
             <label
               htmlFor="email"
-              className="block font-semibold mb-1 text-stone-600"
+              className="mb-1 block font-semibold text-stone-600"
             >
               Email
             </label>
@@ -29,18 +29,18 @@ const Footer = () => {
               type="email"
               required
               autoComplete="off"
-              className="py-6 px-7 text-stone-600 focus:outline-2 focus:outline-stone-400 focus:outline text-xl rounded-md bg-stone-100 w-full"
+              className="w-full rounded-md bg-stone-100 p-4 text-xl text-stone-600 focus:outline focus:outline-2 focus:outline-stone-400"
             />
             <button
               type="submit"
-              className="bg-rose-800 hover:bg-rose-900 text-white px-3 py-2 rounded-md block mt-4"
+              className="mt-4 block rounded-md bg-rose-800 px-3 py-2 text-white hover:bg-rose-900"
             >
               Subscribe
             </button>
           </form>
           <div>
             <div className="flex gap-12">
-              <div className="text-stone-600 flex flex-col w-fit gap-3 mb-8 mt-2">
+              <div className="mb-8 mt-2 flex w-fit flex-col gap-3 text-stone-600">
                 <Link
                   className="hover:text-stone-700"
                   href="https://www.facebook.com/groups/sexhomeworksociety"
@@ -64,12 +64,12 @@ const Footer = () => {
                 </Link>
               </div>
               <nav>
-                <ul className="text-stone-600 flex flex-col w-fit gap-3 mb-8 mt-2">
+                <ul className="mb-8 mt-2 flex w-fit flex-col gap-3 text-stone-600">
                   {LINKS.map((link, i) => (
                     <li key={i}>
                       <Link
                         className="hover:text-stone-700"
-                        href={`/${link === 'Home' ? '' : link.toLowerCase()}`}
+                        href={`/${link === "Home" ? "" : link.toLowerCase()}`}
                       >
                         {link}
                       </Link>
@@ -80,14 +80,14 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="text-xs text-stone-600 flex flex-wrap gap-4 pt-6 mt-8">
+        <div className="mt-8 flex flex-wrap gap-4 pt-6 text-sm text-stone-600">
           <p>All rights reserved © Haneen Khan 2023</p>
           <address className="inline">hello@haneenkhan.com</address>
           <Link className="underline" href="/privacy">
             Privacy
           </Link>
           <p>
-            Website by{' '}
+            Website by{" "}
             <Link
               className="underline"
               target="_blank"
@@ -99,7 +99,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

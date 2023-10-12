@@ -1,6 +1,6 @@
 export const QUESTIONS = [
   {
-    header: 'What happens during a sex coaching session?',
+    header: "What happens during a sex coaching session?",
     content: (
       <>
         <p>
@@ -27,7 +27,7 @@ export const QUESTIONS = [
     ),
   },
   {
-    header: 'What kind of homework tasks can I expect?',
+    header: "What kind of homework tasks can I expect?",
     content: (
       <>
         <p>
@@ -37,7 +37,7 @@ export const QUESTIONS = [
           to nerd on. I will supplement that with a practical exercise, which
           could include:
         </p>
-        <ul className="pl-6 mt-4">
+        <ul className="mt-4 pl-6">
           <li>👉🏼 The 3 minute game with a friend</li>
           <li>👉🏼 A pleasure/touch based exercise </li>
           <li>👉🏼 Actively practicing a skill we&apos;ve learnt</li>
@@ -49,7 +49,7 @@ export const QUESTIONS = [
     ),
   },
   {
-    header: 'Will I have to share details of my private, intimate sex life?',
+    header: "Will I have to share details of my private, intimate sex life?",
     content: (
       <p>
         You will only ever be invited to share 😊 It&apos;s up to you how much!
@@ -60,7 +60,7 @@ export const QUESTIONS = [
     ),
   },
   {
-    header: 'Can I meet you in-person?',
+    header: "Can I meet you in-person?",
     content: (
       <p>
         In my experience video calls have been just as effective as face-to-face
@@ -72,7 +72,7 @@ export const QUESTIONS = [
   },
   {
     header:
-      'How many sessions of therapy will I / we need on average and how often?',
+      "How many sessions of therapy will I / we need on average and how often?",
     content: (
       <>
         <p>
@@ -90,14 +90,14 @@ export const QUESTIONS = [
   },
   {
     header:
-      'Is there any guarantee that sex and relationship coaching will work for me?',
+      "Is there any guarantee that sex and relationship coaching will work for me?",
     content: (
       <>
         <p>
           Great question! I have found there are a few key conditions to
           accelerating the journey:
         </p>
-        <ul className="pl-6 mt-4">
+        <ul className="mt-4 pl-6">
           <li>
             👉🏼 You have a certain level of self-awareness in place already (this
             is not your first “self development” investment)
@@ -123,7 +123,7 @@ export const QUESTIONS = [
     ),
   },
   {
-    header: 'Does coaching involve any physical touching or nudity?',
+    header: "Does coaching involve any physical touching or nudity?",
     content: (
       <p>
         Nope, sex & intimacy coaching is fully clothed with no touch involved.
@@ -133,7 +133,7 @@ export const QUESTIONS = [
     ),
   },
   {
-    header: 'What should I expect in my 45min free consultation?',
+    header: "What should I expect in my 45min free consultation?",
     content: (
       <>
         <p>The main thing is: do we click? ❤️</p>
@@ -153,7 +153,7 @@ export const QUESTIONS = [
   },
   {
     header:
-      'Can we work together, whilst still working with my own psychotherapist?',
+      "Can we work together, whilst still working with my own psychotherapist?",
     content: (
       <p>
         Yes, it can be super complementary to work with a therapist and a coach.
@@ -162,7 +162,7 @@ export const QUESTIONS = [
     ),
   },
   {
-    header: 'Are we the right couple?',
+    header: "Are we the right couple for the couples programme?",
     content: (
       <p>
         You are a couple who desire bringing more intimacy 🥰 & juice 🧃 back
@@ -171,4 +171,4 @@ export const QUESTIONS = [
       </p>
     ),
   },
-]
+];
