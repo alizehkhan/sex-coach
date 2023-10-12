@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { LINKS } from "./Header";
+import { LINKS } from "../about/content";
 
 const Footer = () => {
   return (

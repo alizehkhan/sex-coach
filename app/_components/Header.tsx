@@ -1,17 +1,15 @@
-import Link from 'next/link'
+"use client";
 
-export const LINKS = [
-  'Home',
-  'About',
-  'Coaching',
-  'Workshops',
-  'Blog',
-  'Contact',
-]
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+
+import { LINKS } from "../about/content";
 
 const Header = () => {
+  const pathname = usePathname();
+  console.log(pathname);
   return (
-    <header className="max-w-[1200px] mx-auto py-7 px-6 flex items-center justify-between w-full">
+    <header className="mx-auto flex w-full max-w-[1200px] items-center justify-between px-6 py-7">
       <Link href="/" className="font-serif text-2xl text-stone-700">
         Haneen Khan
       </Link>
@@ -20,8 +18,10 @@ const Header = () => {
           {LINKS.map((link, i) => (
             <li key={i}>
               <Link
-                href={`/${link === 'Home' ? '' : link.toLowerCase()}`}
-                className="hover:underline underline-offset-4 decoration-2"
+                href={`/${link === "Home" ? "" : link.toLowerCase()}`}
+                className={`${
+                  pathname === `/${link.toLowerCase()}` && "underline"
+                } decoration-2 underline-offset-4 hover:underline`}
               >
                 {link}
               </Link>
@@ -30,7 +30,7 @@ const Header = () => {
         </ul>
       </nav>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
