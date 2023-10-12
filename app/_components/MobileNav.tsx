@@ -1,22 +1,22 @@
-import Link from 'next/link'
-import { Dispatch, SetStateAction, useEffect } from 'react'
+import Link from "next/link";
+import { Dispatch, SetStateAction, useEffect } from "react";
 
-import { LINKS } from './Header'
+import { LINKS } from "../about/content";
 
 const MobileNav = ({
   isMobileNavOpen,
   setIsMobileNavOpen,
 }: {
-  isMobileNavOpen: boolean
-  setIsMobileNavOpen: Dispatch<SetStateAction<boolean>>
+  isMobileNavOpen: boolean;
+  setIsMobileNavOpen: Dispatch<SetStateAction<boolean>>;
 }) => {
   useEffect(() => {
-    document.body.style.overflow = 'hidden'
+    document.body.style.overflow = "hidden";
 
     return () => {
-      document.body.style.overflow = 'visible'
-    }
-  }, [])
+      document.body.style.overflow = "visible";
+    };
+  }, []);
 
   return (
     <nav>
@@ -28,7 +28,7 @@ const MobileNav = ({
         {LINKS.map((link, i) => (
           <li key={i}>
             <Link
-              href={`/${link === 'Home' ? '' : link.toLowerCase()}`}
+              href={`/${link === "Home" ? "" : link.toLowerCase()}`}
               onClick={() => setIsMobileNavOpen(false)}
             >
               {link}
@@ -37,7 +37,7 @@ const MobileNav = ({
         ))}
       </ul>
     </nav>
-  )
-}
+  );
+};
 
-export default MobileNav
+export default MobileNav;
