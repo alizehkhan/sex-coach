@@ -7,7 +7,7 @@ import { LINKS } from "../about/content";
 
 const Header = () => {
   const pathname = usePathname();
-  console.log(pathname);
+
   return (
     <header className="mx-auto flex w-full max-w-[1200px] items-center justify-between px-6 py-7">
       <Link href="/" className="font-serif text-2xl text-stone-700">
