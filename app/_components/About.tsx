@@ -4,15 +4,15 @@ import Link from 'next/link'
 const About = () => {
   return (
     <>
-      <div className="max-w-[700px] mt-24 text-lg rounded-xl opacity-90">
-        <h2 className="font-serif font-semibold md:text-6xl text-4xl text-stone-700 tracking-tight">
+      <div className="max-w-[700px] rounded-xl text-lg opacity-90">
+        <h2 className="font-serif text-4xl font-semibold tracking-tight text-stone-700 md:text-6xl">
           Hi deeeears, I&apos;m Haneen.
         </h2>
-        <p className="font-serif md:text-5xl font-semibold text-2xl text-stone-500 mt-4 tracking-tight md:leading-tight">
+        <p className="mt-4 font-serif text-2xl font-semibold tracking-tight text-stone-500 md:text-5xl md:leading-tight">
           👋🏼 My story from Indian lawyer 👩🏻‍💼 to wild sex coach is a real
           head-turner at dinners. 🤭
         </p>
-        <div className="flex gap-16 text-stone-600 mt-4">
+        <div className="mt-4 flex gap-16 text-stone-600">
           <div className="flex-1">
             <p className="mt-4">
               “Wait, WHAT? You were a lawyer?!”. YUP, what can I say. I weirdly
@@ -45,9 +45,9 @@ const About = () => {
         </div>
         <Link
           href="/about"
-          className="text-stone-700 w-fit mt-6 items-center flex gap-1 hover:gap-4 transition-all underline underline-offset-8 font-semibold"
+          className="mt-6 flex w-fit items-center gap-1 font-semibold text-stone-700 underline underline-offset-8 transition-all hover:gap-4"
         >
-          Learn more about me
+          About me
           <IconChevronRight stroke={1.5} />
         </Link>
       </div>
