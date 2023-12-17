@@ -1,26 +1,26 @@
-"use client";
+'use client'
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 
-import { LINKS } from "../about/content";
+import { LINKS } from '../about/content'
 
 const Header = () => {
-  const pathname = usePathname();
+  const pathname = usePathname()
 
   return (
     <header className="mx-auto flex w-full max-w-[1200px] items-center justify-between px-6 py-7">
-      <Link href="/" className="font-serif text-2xl text-stone-700">
+      <Link href="/" className="font-serif text-2xl text-white">
         Haneen Khan
       </Link>
       <nav>
-        <ul className="flex gap-5 text-stone-600">
+        <ul className="flex gap-5 text-white">
           {LINKS.map((link, i) => (
             <li key={i}>
               <Link
-                href={`/${link === "Home" ? "" : link.toLowerCase()}`}
+                href={`/${link === 'Home' ? '' : link.toLowerCase()}`}
                 className={`${
-                  pathname === `/${link.toLowerCase()}` && "underline"
+                  pathname === `/${link.toLowerCase()}` && 'underline'
                 } decoration-2 underline-offset-4 hover:underline`}
               >
                 {link}
@@ -30,7 +30,7 @@ const Header = () => {
         </ul>
       </nav>
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

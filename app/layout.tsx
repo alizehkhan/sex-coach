@@ -1,8 +1,8 @@
-import './globals.css'
 import { Analytics } from '@vercel/analytics/react'
 import type { Metadata } from 'next'
 import { Open_Sans } from 'next/font/google'
 import { ReactNode } from 'react'
+import './globals.css'
 
 import Footer from './_components/Footer'
 import Header from './_components/Header'
@@ -20,11 +20,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className={`bg-stone-50 ${openSans.className}`}>
-        <div className="flex flex-col min-h-screen">
-          <div className="hidden md:block">
+        <div className="flex min-h-screen flex-col">
+          <div className="absolute hidden w-full md:block">
             <Header />
           </div>
-          <div className="md:hidden block">
+          <div className="block md:hidden">
             <MobileHeader />
           </div>
           <main className="flex-1">{children}</main>
